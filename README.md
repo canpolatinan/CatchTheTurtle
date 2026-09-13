@@ -1,20 +1,24 @@
-# Catch The Turtle (Kaplumbağayı Yakala) 🐢
+# 🐢 Catch The Turtle
 
-Python'ın `turtle` kütüphanesi kullanılarak geliştirilmiş, süreye karşı yarışıp ekranda rastgele beliren kaplumbağaları yakalayarak skor kazanmaya çalıştığınız eğlenceli bir masaüstü mini oyunudur.
+Python'un yerleşik `turtle` kütüphanesi kullanılarak geliştirilmiş, modern, akıcı ve eğlenceli bir arcade mini oyunudur.
 
-## 🚀 Özellikler
-- Rastgele konumlarda ve aralıklarla beliren kaplumbağalar.
-- Anlık güncellenen skor takibi sistemi.
-- Nesne yönelimli mantık ve fonksiyonel modüler yapı.
+## 🚀 Öne Çıkan Özellikler
+- **Zorluk Seviyeleri:** Kolay, Orta ve Zor mod seçenekleriyle farklı refleks testleri.
+- **Dinamik Hızlanma:** Süre ilerledikçe artan kaplumbağa çıkış hızı.
+- **Risk & Ödül Mekaniği:** 
+  - 🟢 **Yeşil Kaplumbağa:** +1 Puan
+  - 🟡 **Altın Kaplumbağa:** +3 Puan (Nadir)
+  - 🔴 **Kırmızı Bomba:** -2 Puan (Bombalardan kaçın!)
+- **Kalıcı Yüksek Skor:** Skorlar `highscore.txt` dosyasına kaydedilir; oyunu kapatıp açsanız bile rekorunuz silinmez.
+- **Görsel Efektler:** Tıklanan yerde beliren uçan puan animasyonları (`+1`, `+3`, `-2`) ve şık arayüz.
 
 ## 🛠️ Kullanılan Teknolojiler
-- **Python** (v3.x)
-- **Turtle** (Grafik ve arayüz yönetimi)
-- **Random** (Rastgele koordinat ve seçim işlemleri)
+- Python 3.x
+- Turtle Modülü
+- OS & Random Modülleri
 
-## ⚙️ Nasıl Çalıştırılır?
-
-Projeyi bilgisayarınıza klonlayın veya indirin:
-
-```bash
-git clone [https://github.com/canpolatinan/CatchTheTurtle.git](https://github.com/canpolatinan/CatchTheTurtle.git)
+## 🕹️ Oyunu Çalıştırma
+1. Bilgisayarınızda Python'un kurulu olduğundan emin olun.
+2. Projeyi bilgisayarınıza klonlayın:
+   ```bash
+ 
